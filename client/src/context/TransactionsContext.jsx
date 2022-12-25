@@ -19,8 +19,6 @@ const createEthereumContract = () => {
   return transactionsContract;
 };
 
-console.log(createEthereumContract());
-
 export const TransactionsProvider = ({ children }) => {
   const [formData, setformData] = useState({
     addressTo: "",
